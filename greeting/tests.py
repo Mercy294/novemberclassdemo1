@@ -9,8 +9,8 @@ class GreetingTests(TestCase):
     
     def test_format_greeting(self):
         """Test the greeting formatter function"""
-        result = format_greeting("John")
-        self.assertEqual(result, "Hello, John! Welcome to our application.")
+        result = format_greeting("James")
+        self.assertEqual(result, "Hello, James! Welcome to our application.")
     
     def test_index_page(self):
         """Test that index page loads correctly"""
